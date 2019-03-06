@@ -1,0 +1,5 @@
+matemaatika C 5
+füüsika B 5
+keemia A 4
+bioloogia A 3
+ajalugu F 5
