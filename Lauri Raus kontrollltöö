@@ -1,0 +1,27 @@
+public class Kiirustest{
+	public static double leiaKeskmine(double kiirus1, double kiirus2){
+		double aeg1 = 1 / kiirus1; 
+		double aeg2 = 1 / kiirus2;
+		double aegKokku  = aeg1 + aeg2;
+		double keskmine = 2/aegKokku;
+		return keskmine;
+	}
+	
+	public static double leiaKeskmisedKiirused(double[] kiirused)  {
+    double keskmineKiirus = 0;
+    for(int i = 0; i < kiirused.length; i++) {
+        keskmineKiirus+= kiirused[i];
+    }
+	
+    keskmineKiirus = keskmineKiirus / kiirused.length;
+    return keskmineKiirus;
+	}
+	
+	public static void main(String[] arg){
+	double[] kiirused = new double[2];
+	kiirused[0] = 30;
+	kiirused[1] = 60;
+		System.out.println("1.Keskmine kiirus on: " + leiaKeskmine(30, 60));
+		System.out.println("2.Keskmised kiirused on: " + leiaKeskmisedKiirused(kiirused));
+	}
+}
