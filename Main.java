@@ -1,5 +1,3 @@
-package com.company;
-
 // Harmooniline keskmine - Madis Otenurm
 import java.net.*;
 import java.io.*;
