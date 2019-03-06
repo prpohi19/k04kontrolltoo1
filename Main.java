@@ -38,9 +38,6 @@ public class Main {
     while(vahetusi ==1){
       vahetusi = 0;
       for(int i=0; i < suurus-1;i++){
-        if(suur<arvud[i]){
-          suur=arvud[i];
-        }
         if(arvud[i]>arvud[i+1]){
           int abi = arvud[i];
           arvud[i] = arvud[i+1];
@@ -50,15 +47,15 @@ public class Main {
       if(v2ike>arvud[i]){v2ike=arvud[i];}
     }
   }
-    /*for(int j=0;j<suurus;j++){
+    for(int j=0;j<suurus;j++){
       if(suur<arvud[j]){
         suur=arvud[j];
       }
-    }*/
+    }
     int veerand = (int)Math.ceil((suurus/100.00)*25);
     int pool = (int)Math.ceil((suurus/100.00)*50);
     int kolmveera = (int)Math.ceil((suurus/100.00)*75);
-    System.out.println("v"+veerand+" p"+pool+" k"+kolmveera);
+    //System.out.println("v"+veerand+" p"+pool+" k"+kolmveera);
     arvud[suurus+2] = arvud[veerand-1];
     arvud[suurus+3] = arvud[pool-1];
     arvud[suurus+4] = arvud[kolmveera-1];
