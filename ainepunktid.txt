@@ -1,0 +1,4 @@
+Eesrakenduste arendamine,4,C
+Tarkvaraarenduse praktika,6,A
+Robootika,3,A
+Algoritmid ja andmestrukuurid,2,F
