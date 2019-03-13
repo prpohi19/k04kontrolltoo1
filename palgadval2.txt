@@ -1,4 +1,4 @@
-Koef kesk | geom kesk
 Baas palk: 1000.0
-1000.0 | 0.0
-1500.0 | 0.0
+Koef kesk | geom kesk(1.224744871391589)
+1000.0 | 1225.0
+1500.0 | 1500.0
